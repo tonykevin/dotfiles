@@ -1,0 +1,21 @@
+"Bundles
+
+call plug#begin('~/.vim/plugged')
+
+source ~/.vim/bundle/main.vim
+source ~/.vim/bundle/themes.vim
+source ~/.vim/bundle/utils.vim
+
+call plug#end()
+
+
+"Basic settings
+
+source ~/.vim/base/global.vim
+source ~/.vim/base/interface.vim
+source ~/.vim/base/mappings.vim
+source ~/.vim/base/optional.vim
+
+
+"Bundle settings
+source ~/.vim/bundle/config/main.vim

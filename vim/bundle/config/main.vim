@@ -66,6 +66,8 @@ let g:NERDCustomDelimiters = {
 
 let g:polyglot_disabled = ['javascript']
 
+autocmd FileType scss set iskeyword+=-
+
 
 "--- Syntastic ---
 let g:syntastic_error_symbol = "✗"

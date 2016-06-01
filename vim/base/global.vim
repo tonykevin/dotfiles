@@ -10,8 +10,8 @@ set hidden
 set laststatus=2
 set list lcs=trail:·,tab:▸·
 set modelines=0
-set relativenumber
 set pastetoggle=<F3>
+set relativenumber
 set showcmd
 
 "Backup

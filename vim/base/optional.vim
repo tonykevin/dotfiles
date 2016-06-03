@@ -1,4 +1,13 @@
-"Disable keys
+"Optional settings
+
+
+"--- Omnifunc ---
+
+"Disable extra information
+autocmd FileType python setlocal completeopt-=preview
+
+
+"--- Disable keys ----
 
 "Arrows
 nnoremap <left> <nop>

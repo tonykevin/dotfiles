@@ -8,6 +8,7 @@ Plug 'tpope/vim-fugitive'
 "Html
 Plug 'mattn/emmet-vim'
 
+
 "Javascript
 Plug 'bigfish/vim-js-context-coloring'
 Plug 'gavocanov/vim-js-indent', { 'for': 'javascript' }
@@ -24,6 +25,7 @@ Plug 'klen/python-mode'
 
 "Ruby
 Plug 'tpope/vim-bundler'
+Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-rails'
 
 "Tex

@@ -7,15 +7,14 @@ Plug 'Chun-Yang/vim-action-ag'      "Use ag for command *
 
 
 "Helpers
+Plug 'Konfekt/FastFold'             " Optimize fold
 Plug 'Raimondi/delimitMate'         " Auto close quotes, brackets,etc.
-" Plug 'Shougo/neocomplete.vim'       " Autocomple
 Plug 'danro/rename.vim'             " Rename files
 Plug 'duggiefresh/vim-easydir'      " Create files
 Plug 'easymotion/vim-easymotion'    " Vim motions on speed
 Plug 'junegunn/vim-easy-align'      " Align characters
 Plug 'scrooloose/nerdcommenter'     " Commenting code
 Plug 'tpope/vim-surround'           " Quotes/parentheses made simple
-Plug 'Konfekt/FastFold'
 
 
 "Status lines

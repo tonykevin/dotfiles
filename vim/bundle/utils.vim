@@ -22,7 +22,9 @@ Plug 'elzr/vim-json'
 "Python
 Plug 'klen/python-mode'
 
-" Ruby
+"Ruby
 Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-rails'
 
+"Tex
+Plug 'lervag/vimtex'

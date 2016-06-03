@@ -74,3 +74,6 @@ let g:syntastic_error_symbol = "✗"
 let g:syntastic_warning_symbol = "⚠"
 
 let g:syntastic_javascript_checkers = ['standard']
+
+"--- Vimtex ---
+map <leader>lx <Plug>(vimtex-compile-toggle)

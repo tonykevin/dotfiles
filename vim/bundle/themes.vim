@@ -1,6 +1,7 @@
 "Themes
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'altercation/vim-colors-solarized'
+Plug 'chriskempson/base16-vim'
 Plug 'christophermca/meta5'
 Plug 'freeo/vim-kalisi'
 Plug 'joshdick/onedark.vim'

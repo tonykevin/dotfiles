@@ -1,5 +1,6 @@
 "Settings basic bundles
 
+
 "--- Ag ---
 
 let g:ag_prg="/usr/bin/ag --vimgrep"

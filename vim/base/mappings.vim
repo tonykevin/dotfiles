@@ -1,13 +1,20 @@
 "Mappings
-let mapleader = ","
+
 
 "Buffer
 nnoremap gj :bprevious<CR>
 nnoremap gk :bnext<CR>
 nnoremap gd :bdelete<CR>
 
+"Copy & paste
+vnoremap <C-y> "+y
+nnoremap <C-p> "+p
+
 "Esc key
 inoremap fj <esc>
+
+"Leader
+let mapleader = ","
 
 "Save
 nnoremap <leader>s :write<cr>

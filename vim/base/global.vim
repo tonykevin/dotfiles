@@ -18,6 +18,11 @@ set showcmd
 set backupdir=/tmp
 set directory=/tmp
 
+"Clipboard
+if has('unnamedplus')
+  set clipboard=unnamed,unnamedplus
+endif
+
 "Tab key
 set tabstop=2
 set shiftwidth=2

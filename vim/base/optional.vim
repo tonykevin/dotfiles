@@ -1,12 +1,6 @@
 "Optional settings
 
 
-"--- Omnifunc ---
-
-"Disable extra information
-autocmd FileType python setlocal completeopt-=preview
-
-
 "--- Disable keys ----
 
 "Arrows
@@ -22,3 +16,17 @@ inoremap <down> <nop>
 
 "Esc
 inoremap <esc> <nop>
+
+
+"--- Interface ---
+
+" Set font for gvim
+if has("gui_running")
+  set guifont=Monospace\ 16
+endif
+
+
+"--- Omnifunc ---
+
+"Disable extra information
+autocmd FileType python setlocal completeopt-=preview

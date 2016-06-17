@@ -1,4 +1,4 @@
-"GUI
+"Interface
 
 
 " Fixing Vim's Background Color Erase for 256-color

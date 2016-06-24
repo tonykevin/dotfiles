@@ -21,6 +21,10 @@ Settings your .vimrc
         $ ln -s .dotfiles/vim/ ~/.vim
         $ ln -s .dotfiles/vim/vimrc ~/.vimrc
 
+* Create a file for local settings
+
+        $ touch ~/.vim/base/local.vim
+
 * Install [vim-plug](https://github.com/junegunn/vim-plug)
 
         $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \

@@ -27,14 +27,13 @@ nnoremap <leader>w :%s/\s\+$//<cr>:let @/=''<CR>
 vnoremap <leader>s !sort<cr>
 
 "Scrolling relative to last line
-nnoremap <leader>m Gz.
-nnoremap <leader>t Gz<cr>
+nnoremap <leader>t Gz.
 
 "Window splitting remap"
-nnoremap <leader>e <C-w>s<C-w>j
+nnoremap <leader>b <C-w>s<C-w>j
 nnoremap <leader>r <C-w>v<C-w>l
 nnoremap <leader>q <C-w>q
-nnoremap <leader>1 <C-w>k
-nnoremap <leader>2 <C-w>j
-nnoremap <leader>3 <C-w>h
-nnoremap <leader>4 <C-w>l
+nnoremap <leader>k <C-w>k
+nnoremap <leader>m <C-w>j
+nnoremap <leader>f <C-w>h
+nnoremap <leader>j <C-w>l

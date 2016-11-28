@@ -10,7 +10,6 @@ Plug 'mattn/emmet-vim'
 
 
 "Javascript
-Plug 'bigfish/vim-js-context-coloring'
 Plug 'gavocanov/vim-js-indent', { 'for': 'javascript' }
 Plug 'moll/vim-node'
 Plug 'othree/es.next.syntax.vim', { 'for': 'javascript' }

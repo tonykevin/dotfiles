@@ -65,16 +65,20 @@ let g:NERDCustomDelimiters = {
 
 "--- Polyglot ---
 
-let g:polyglot_disabled = ['javascript']
+" Disable jsx syntax by default
+let g:jsx_ext_required = 1
 
+"Function names starting with a keyword
 autocmd FileType scss set iskeyword+=-
 
 
 "--- Syntastic ---
+
 let g:syntastic_error_symbol = "✗"
 let g:syntastic_warning_symbol = "⚠"
 
 let g:syntastic_javascript_checkers = ['standard']
 
 "--- Vimtex ---
+
 map <leader>lx <Plug>(vimtex-compile-toggle)

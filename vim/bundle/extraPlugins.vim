@@ -1,13 +1,11 @@
 "Custom bundles
 
-
 "Git
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 
 "Html
 Plug 'mattn/emmet-vim'
-
 
 "Javascript
 Plug 'gavocanov/vim-js-indent', { 'for': 'javascript' }

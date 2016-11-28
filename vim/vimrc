@@ -2,9 +2,9 @@
 
 call plug#begin('~/.vim/plugged')
 
-source ~/.vim/bundle/main.vim
-source ~/.vim/bundle/themes.vim
-source ~/.vim/bundle/utils.vim
+source ~/.vim/bundle/basicPlugins.vim
+source ~/.vim/bundle/colorScheme.vim
+source ~/.vim/bundle/extraPlugins.vim
 
 call plug#end()
 
@@ -20,4 +20,4 @@ source ~/.vim/base/local.vim
 
 
 "Bundle settings
-source ~/.vim/bundle/config/main.vim
+source ~/.vim/bundle/config/basicPlugins.vim

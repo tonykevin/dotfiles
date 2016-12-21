@@ -1,5 +1,4 @@
-"Mappings
-
+"Key mappings - Global
 
 "Buffer
 nnoremap gj :bprevious<CR>

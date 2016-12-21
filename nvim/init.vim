@@ -14,9 +14,13 @@ call plug#end()
 
 source ~/.config/nvim/core/global.vim
 source ~/.config/nvim/core/helpers.vim
-source ~/.config/nvim/core/keys.vim
 source ~/.config/nvim/core/partials.vim
 source ~/.config/nvim/core/ui.vim
+
+"Key mappings
+source ~/.config/nvim/keys/global.vim
+source ~/.config/nvim/keys/helpers.vim
+source ~/.config/nvim/keys/partials.vim
 
 "Optional settings
 

@@ -2,22 +2,23 @@
 
 call plug#begin('~/.config/nvim/plugged')
 
-source ~/.config/nvim/bundle/basicPlugins.vim
-source ~/.config/nvim/bundle/colorScheme.vim
-source ~/.config/nvim/bundle/extraPlugins.vim
+source ~/.config/nvim/bundle/helpers.vim
+source ~/.config/nvim/bundle/partials.vim
+source ~/.config/nvim/bundle/ui-theme.vim
+source ~/.config/nvim/bundle/ui.vim
 
 call plug#end()
 
 
-"Basic settings
+"Core settings
 
 source ~/.config/nvim/core/global.vim
-source ~/.config/nvim/core/interface.vim
-source ~/.config/nvim/core/mappings.vim
-source ~/.config/nvim/core/optional.vim
+source ~/.config/nvim/core/helpers.vim
+source ~/.config/nvim/core/keys.vim
+source ~/.config/nvim/core/partials.vim
+source ~/.config/nvim/core/ui.vim
 
-source ~/.config/nvim/core/test.vim
+"Optional settings
 
-
-"Bundle settings
-source ~/.config/nvim/bundle/config/basicPlugins.vim
+source ~/.config/nvim/extra/global.vim
+source ~/.config/nvim/extra/test.vim

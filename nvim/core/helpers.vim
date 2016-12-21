@@ -2,14 +2,9 @@
 
 "--- Ag ---
 "
-let g:ag_prg="/usr/bin/ag --vimgrep"
-let g:ag_working_path_mode="r"
-
-
-"--- Ag-action ---
-"
-nmap * <Plug>AgActionWord
-vmap * <Plug>AgActionVisual
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
 
 
 "--- CtrlP ---

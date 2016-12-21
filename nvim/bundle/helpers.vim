@@ -3,8 +3,7 @@
 
 "File finder
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'rking/ag.vim'                 "Integrate with the_silver_searcher
-Plug 'Chun-Yang/vim-action-ag'      "Use ag for command *
+Plug 'mileszs/ack.vim'              " Integrate with the_silver_searcher
 
 "Helpers
 Plug 'Konfekt/FastFold'             " Optimize fold

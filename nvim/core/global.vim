@@ -11,6 +11,9 @@ set showcmd
 "Clipboard
 set clipboard+=unnamedplus
 
+"Grep
+set grepprg=ag\ --nogroup\ --nocolor
+
 "Tab key
 set tabstop=2
 set shiftwidth=2

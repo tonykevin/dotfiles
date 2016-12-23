@@ -27,6 +27,7 @@ xmap ga <Plug>(EasyAlign)
 "--- NerdCommenter ---
 "
 let g:NERDSpaceDelims=1
+let g:NERDCompactSexyComs = 1
 let g:NERDCustomDelimiters = {
       \'python': { 'left': '#'}
       \}
@@ -34,7 +35,14 @@ let g:NERDCustomDelimiters = {
 
 "--- Syntastic ---
 "
-let g:syntastic_error_symbol = "✗"
-let g:syntastic_warning_symbol = "⚠"
+let g:syntastic_enable_signs = 1
+let g:syntastic_check_on_open = 1
 
-let g:syntastic_javascript_checkers = ['standard']
+let g:syntastic_error_symbol = '🦊'
+let g:syntastic_warning_symbol = '🐥'
+let g:syntastic_style_error_symbol = '🍍'
+let g:syntastic_style_warning_symbol = '🍧'
+
+let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_scss_checkers=['sass_lint']
+let g:syntastic_styl_checkers=['stylint']

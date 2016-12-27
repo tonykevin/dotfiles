@@ -8,6 +8,9 @@ set modelines=0
 set relativenumber
 set showcmd
 
+"Autocomplete
+set completeopt=menu
+
 "Clipboard
 set clipboard+=unnamedplus
 

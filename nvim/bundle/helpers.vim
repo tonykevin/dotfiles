@@ -1,7 +1,12 @@
 "Basic bundles
+
 " --- Core ---
 
-"File finder
+"Code autocomplete
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'ervandew/supertab'
+
+"Handle files
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mileszs/ack.vim'              " Integrate with the_silver_searcher
 
@@ -16,7 +21,9 @@ Plug 'tpope/vim-surround'           " Quotes/parentheses made simple
 "Syntax checking
 Plug 'scrooloose/syntastic'
 
+
 " --- Applications ---
 
+" -Git-
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'

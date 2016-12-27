@@ -24,6 +24,10 @@ nmap ga <Plug>(EasyAlign)
 xmap ga <Plug>(EasyAlign)
 
 
+"--- Deoplete ---
+let g:deoplete#enable_at_startup = 1
+
+
 "--- NerdCommenter ---
 "
 let g:NERDSpaceDelims=1

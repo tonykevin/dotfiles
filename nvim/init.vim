@@ -12,10 +12,10 @@ call plug#end()
 
 "Core settings
 
-source ~/.config/nvim/core/global.vim
-source ~/.config/nvim/core/helpers.vim
-source ~/.config/nvim/core/partials.vim
-source ~/.config/nvim/core/ui.vim
+source ~/.config/nvim/config/global.vim
+source ~/.config/nvim/config/helpers.vim
+source ~/.config/nvim/config/partials.vim
+source ~/.config/nvim/config/ui.vim
 
 "Key mappings
 source ~/.config/nvim/keys/global.vim

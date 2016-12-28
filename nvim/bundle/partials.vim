@@ -1,5 +1,8 @@
 "Custom bundles
 
+"CSS
+Plug 'rstacruz/vim-hyperstyle', { 'for': [ 'scss', 'stylus' ] }
+
 "Javascript
 Plug 'gavocanov/vim-js-indent', { 'for': 'javascript' }
 Plug 'moll/vim-node'

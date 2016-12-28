@@ -11,6 +11,10 @@ inoremap fj <esc>
 "Leader
 let mapleader = ","
 
+"Menu autocomplete
+inoremap <expr><A-j> pumvisible() ? "\<C-n>" : "\<A-j>"
+inoremap <expr><A-k> pumvisible() ? "\<C-p>" : "\<A-k>"
+
 "Save
 nnoremap <leader>s :write<cr>
 

@@ -35,11 +35,21 @@ let g:deoplete#enable_at_startup = 1
 
 "--- NerdCommenter ---
 "
-let g:NERDSpaceDelims=1
+let g:NERDSpaceDelims = 1
 let g:NERDCompactSexyComs = 1
 let g:NERDCustomDelimiters = {
       \'python': { 'left': '#'}
       \}
+
+
+"--- NERDTree ---
+"
+let NERDTreeQuitOnOpen = 1
+let NERDTreeIgnore = [
+      \'.git',
+      \'node_modules',
+      \'.sass-cache'
+      \]
 
 
 "--- Syntastic ---
@@ -53,5 +63,5 @@ let g:syntastic_style_error_symbol = '🍍'
 let g:syntastic_style_warning_symbol = '🍧'
 
 let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_scss_checkers=['sass_lint']
-let g:syntastic_styl_checkers=['stylint']
+let g:syntastic_scss_checkers = ['sass_lint']
+let g:syntastic_styl_checkers = ['stylint']

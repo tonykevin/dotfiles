@@ -8,8 +8,9 @@ Plug 'alvan/vim-closetag'
 Plug 'ervandew/supertab'
 
 "Handle files
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mileszs/ack.vim'              " Integrate with the_silver_searcher
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'scrooloose/nerdtree'
 
 "Helpers
 Plug 'Konfekt/FastFold'             " Optimize fold

@@ -1,36 +1,28 @@
 "UI settings
 
+syntax enable
+
 "--- Color ---
+"
+if (has("termguicolors"))
+ set termguicolors
+endif
 
 " Fixing Vim's Background Color Erase for 256-color
 if &term =~ '256color'
   set t_ut=
 endif
 
+
 " --- Background ---
 
-" Set color scheme
-let g:colors_name = "gruvbox"
-
-" Set background
 set background=dark
-
-
-" Highlight white spaces
-highlight ExtraWhitespace ctermbg=red
-match ExtraWhitespace /\s\$/
-
-augroup whitespace
-  autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
-  autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
-  autocmd InsertLeave * match ExtraWhitespace /\s\+$/
-  autocmd BufWinLeave * call clearmatches()
-augroup END
+colorscheme OceanicNext
 
 
 "--- Airline ---
 "
-let g:airline_theme = 'gruvbox'
+let g:airline_theme = 'oceanicnext'
 let g:airline_powerline_fonts = 1
 
 " Display all buffers

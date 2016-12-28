@@ -17,6 +17,3 @@ Plug 'klen/python-mode'
 Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-rails'
-
-"Tex
-Plug 'lervag/vimtex'

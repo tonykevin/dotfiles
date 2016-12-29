@@ -1,6 +1,6 @@
 "Helper settings
 
-"-- Files ---
+"-- Files --
 
 "...... Ag ......
 if executable('ag')
@@ -54,11 +54,6 @@ let g:NERDCompactSexyComs = 1
 let g:NERDCustomDelimiters = {
       \'python': { 'left': '#'}
       \}
-
-
-"...... Polyglot ......
-let g:jsx_ext_required = 1
-autocmd FileType scss set iskeyword+=-
 
 
 "...... Syntastic ......

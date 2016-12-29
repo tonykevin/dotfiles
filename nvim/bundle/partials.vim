@@ -28,3 +28,7 @@ Plug 'klen/python-mode'
 Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-rails'
+
+"-- Syntax --
+
+Plug 'sheerun/vim-polyglot'

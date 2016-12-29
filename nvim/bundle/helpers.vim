@@ -29,4 +29,3 @@ Plug 'tpope/vim-surround'
 
 ".... syntax ....
 Plug 'scrooloose/syntastic'
-Plug 'sheerun/vim-polyglot'

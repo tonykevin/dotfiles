@@ -1,14 +1,19 @@
-Vim
+Nvim
 ======
-Settings your .vimrc
+Settings neovim
 
 ## Requirements
 
-* __Basic:__ [git](https://git-scm.com/), [the\_silver\_searcher](https://github.com/ggreer/the_silver_searcher)
+* [git](https://git-scm.com/)
 
-* __Optional:__
+* [the\_silver\_searcher](https://github.com/ggreer/the_silver_searcher)
 
-  * Javascript: [standard](https://github.com/feross/standard)
+* [Eslint](http://eslint.org/)
+
+        $ npm i -g eslint eslint-config-standard eslint-config-standard-react eslint-config-standard-jsx\
+                   eslint-plugin-standard eslint-plugin-promise eslint-plugin-react
+
+* [Python client for neovim](https://github.com/neovim/python-client)
 
 ## Install
 
@@ -18,12 +23,7 @@ Settings your .vimrc
 
 * Create symlink
 
-        $ ln -s .dotfiles/vim/ ~/.vim
-        $ ln -s .dotfiles/vim/vimrc ~/.vimrc
-
-* Create a file for local settings
-
-        $ touch ~/.vim/base/local.vim
+        $ ln -s ~/.dotfiles/nvim/ ~/.config/nvim
 
 * Install [vim-plug](https://github.com/junegunn/vim-plug)
 

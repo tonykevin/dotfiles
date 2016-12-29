@@ -1,34 +1,32 @@
-"Basic bundles
+"Helper bundles
 
-" --- Core ---
+"-- Files --
 
-"Code autocomplete
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'alvan/vim-closetag'
-Plug 'ervandew/supertab'
-
-"Handle files
-Plug 'mileszs/ack.vim'              " Integrate with the_silver_searcher
+".... handle ....
+Plug 'mileszs/ack.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
-
-"Helpers
-Plug 'Konfekt/FastFold'             " Optimize fold
-Plug 'easymotion/vim-easymotion'    " Vim motions on speed
-Plug 'jiangmiao/auto-pairs'         " Auto close quotes, brackets, etc.
-Plug 'junegunn/vim-easy-align'      " Align characters
-Plug 'scrooloose/nerdcommenter'     " Commenting code
-Plug 'tpope/vim-surround'           " Quotes/parentheses made simple
-
-"Start vim
 Plug 'mhinz/vim-startify'
 
-"Syntax checking
+
+"-- Code --
+
+Plug 'ervandew/supertab'
+
+".... autocomplete ....
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'alvan/vim-closetag'
+Plug 'jiangmiao/auto-pairs'
+
+".... modifiers ....
+Plug 'Konfekt/FastFold'
+Plug 'junegunn/vim-easy-align'
+Plug 'scrooloose/nerdcommenter'
+
+".... navigate ....
+Plug 'easymotion/vim-easymotion'
+Plug 'tpope/vim-surround'
+
+".... syntax ....
 Plug 'scrooloose/syntastic'
-
-
-" --- Applications ---
-
-" -Git-
-Plug 'airblade/vim-gitgutter'
-Plug 'tpope/vim-fugitive'
+Plug 'sheerun/vim-polyglot'

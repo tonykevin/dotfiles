@@ -20,6 +20,9 @@ Plug 'junegunn/vim-easy-align'      " Align characters
 Plug 'scrooloose/nerdcommenter'     " Commenting code
 Plug 'tpope/vim-surround'           " Quotes/parentheses made simple
 
+"Start vim
+Plug 'mhinz/vim-startify'
+
 "Syntax checking
 Plug 'scrooloose/syntastic'
 

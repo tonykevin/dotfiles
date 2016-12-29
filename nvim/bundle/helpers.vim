@@ -19,9 +19,9 @@ Plug 'alvan/vim-closetag'
 Plug 'jiangmiao/auto-pairs'
 
 ".... modifiers ....
-Plug 'Konfekt/FastFold'
 Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdcommenter'
+Plug 'tweekmonster/braceless.vim'
 
 ".... navigate ....
 Plug 'easymotion/vim-easymotion'

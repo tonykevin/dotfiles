@@ -33,6 +33,11 @@ let g:startify_custom_header = ['  🌲🦊 Nvim 🌲🌲']
 "-- Code --
 
 
+"...... Braceless ......
+
+autocmd FileType python BracelessEnable +indent
+
+
 "...... Closetag ......
 let g:closetag_filenames = '*.html,*.jsx'
 

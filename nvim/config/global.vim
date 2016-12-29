@@ -29,9 +29,20 @@ set ignorecase
 set showmatch
 set smartcase
 
+"UI
+
+if (has("termguicolors"))
+ set termguicolors
+endif
+
+if &term =~ '256color'
+  set t_ut=
+endif
+
+
 "Global variables
 
-" --- Providers ---
+"-- Providers --
 
 "Python 2
 let s:pyenv_python2 = glob(expand('$PYENV_ROOT/versions/neovim2/bin/python'))

@@ -15,6 +15,7 @@ Plug 'ervandew/supertab'
 
 ".... autocomplete ....
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'zchee/deoplete-jedi'
 Plug 'alvan/vim-closetag'
 Plug 'jiangmiao/auto-pairs'
 

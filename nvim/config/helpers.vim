@@ -71,5 +71,6 @@ let g:syntastic_style_error_symbol = '🍍'
 let g:syntastic_style_warning_symbol = '🍧'
 
 let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_ruby_checkers = ['rubocop']
 let g:syntastic_scss_checkers = ['sass_lint']
 let g:syntastic_styl_checkers = ['stylint']

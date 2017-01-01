@@ -1,0 +1,16 @@
+AllCops:
+  Includes:
+    - Rakefile
+    - config.ru
+  Excludes:
+    - db/**
+    - config/**
+    - script/**
+    - vendor/**/*
+    - !ruby/regexp /old_and_unused\.rb$/
+
+Documentation:
+  Enabled: false
+
+Rails:
+  Enabled: true

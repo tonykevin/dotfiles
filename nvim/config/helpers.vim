@@ -25,10 +25,6 @@ let NERDTreeIgnore = [
       \]
 
 
-"...... Startify ......
-let g:startify_custom_header = ['  🌲🦊 Nvim 🌲🌲']
-
-
 
 "-- Code --
 

@@ -6,7 +6,6 @@
 Plug 'mileszs/ack.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
-Plug 'mhinz/vim-startify'
 
 
 "-- Code --

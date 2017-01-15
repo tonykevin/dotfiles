@@ -1,6 +1,11 @@
 {
+  "env": {
+    "browser": true,
+    "node": true
+  },
   "extends": ["standard", "standard-react"],
   "rules": {
+    "no-console": "warn",
     "react/no-multi-comp": "error"
   }
 }

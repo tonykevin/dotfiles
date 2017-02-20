@@ -21,7 +21,8 @@ let NERDTreeQuitOnOpen = 1
 let NERDTreeIgnore = [
       \'.git',
       \'node_modules',
-      \'.sass-cache'
+      \'.sass-cache',
+      \'webpack^*'
       \]
 
 
@@ -35,7 +36,7 @@ autocmd FileType python BracelessEnable +indent
 
 
 "...... Closetag ......
-let g:closetag_filenames = '*.html,*.jsx'
+let g:closetag_filenames = '*.erb,*.html,*.js,*.jsx'
 
 
 "...... Easy-align ......

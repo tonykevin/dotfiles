@@ -1,6 +1,8 @@
 {
   "env": {
     "browser": true,
+    "mocha": true,
+    "mongo": true,
     "node": true
   },
   "extends": ["standard", "standard-react"],

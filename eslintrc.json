@@ -8,6 +8,10 @@
   "extends": ["standard", "standard-react"],
   "rules": {
     "no-console": "warn",
-    "react/no-multi-comp": "error"
+    "react/jsx-closing-bracket-location": "error",
+    "react/jsx-no-bind": "error",
+    "react/jsx-pascal-case": "error",
+    "react/no-multi-comp": "error",
+    "react/no-string-refs": "error"
   }
 }

@@ -13,5 +13,3 @@ let g:pymode_rope = 0
 
 "...... Polyglot ......
 autocmd FileType scss set iskeyword+=-
-
-let g:jsx_ext_required = 1

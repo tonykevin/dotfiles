@@ -21,8 +21,7 @@ let NERDTreeQuitOnOpen = 1
 let NERDTreeIgnore = [
       \'.git',
       \'node_modules',
-      \'.sass-cache',
-      \'webpack^*'
+      \'.sass-cache'
       \]
 
 

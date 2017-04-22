@@ -11,7 +11,8 @@ Settings neovim
 * [Eslint](http://eslint.org/)
 
         $ npm i -g eslint eslint-config-standard eslint-config-standard-react eslint-config-standard-jsx\
-                   eslint-plugin-standard eslint-plugin-promise eslint-plugin-react
+                   eslint-plugin-standard eslint-plugin-promise eslint-plugin-react\
+                   eslint-plugin-import eslint-plugin-node
 
 * [Python client for neovim](https://github.com/neovim/python-client)
 

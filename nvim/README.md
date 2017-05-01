@@ -8,13 +8,17 @@ Settings neovim
 
 * [the\_silver\_searcher](https://github.com/ggreer/the_silver_searcher)
 
+* [Python client for neovim](https://github.com/neovim/python-client)
+
 * [Eslint](http://eslint.org/)
 
         $ npm i -g eslint eslint-config-standard eslint-config-standard-react eslint-config-standard-jsx\
                    eslint-plugin-standard eslint-plugin-promise eslint-plugin-react\
                    eslint-plugin-import eslint-plugin-node
 
-* [Python client for neovim](https://github.com/neovim/python-client)
+* [Scss-lint](https://github.com/brigade/scss-lint)
+
+* [Stylint](https://github.com/SimenB/stylint)
 
 ## Install
 

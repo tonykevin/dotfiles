@@ -21,7 +21,15 @@ let NERDTreeQuitOnOpen = 1
 let NERDTreeIgnore = [
       \'.git',
       \'node_modules',
-      \'.sass-cache'
+      \'.sass-cache',
+      \'.aux$',
+      \'.bcf$',
+      \'.lof$',
+      \'.log$',
+      \'.lot$',
+      \'.run.xml$',
+      \'.toc$',
+      \'synctex.gz$'
       \]
 
 

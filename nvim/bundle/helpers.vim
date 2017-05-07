@@ -10,6 +10,7 @@ Plug 'scrooloose/nerdtree'
 
 "-- Code --
 
+Plug 'ap/vim-css-color'
 Plug 'ervandew/supertab'
 
 ".... autocomplete ....

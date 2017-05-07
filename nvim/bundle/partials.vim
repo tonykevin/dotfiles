@@ -9,7 +9,7 @@ Plug 'tpope/vim-fugitive'
 "-- Languages --
 
 ".... css ....
-Plug 'rstacruz/vim-hyperstyle', { 'for': [ 'scss', 'stylus' ] }
+Plug 'rstacruz/vim-hyperstyle'
 
 ".... javascript ....
 Plug 'gavocanov/vim-js-indent', { 'for': 'javascript' }

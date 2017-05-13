@@ -1,4 +1,20 @@
-### Vim ###
+#--- Git ---
+*.orig
+
+
+#--- Node ---
+
+# logs
+*.log
+
+
+#--- Python ---
+
+# rope project settings
+.ropeproject
+
+
+#--- Vim ---
 
 # swap
 [._]*.s[a-v][a-z]
@@ -15,13 +31,3 @@ Session.vim
 
 # auto-generated tag files
 tags
-
-### Python ###
-
-# rope project settings
-.ropeproject
-
-### Node ###
-
-# logs
-*.log

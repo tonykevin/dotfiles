@@ -15,9 +15,9 @@ Plug 'ervandew/supertab'
 
 ".... autocomplete ....
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'zchee/deoplete-jedi'
+Plug 'Raimondi/delimitMate'
 Plug 'alvan/vim-closetag'
-Plug 'jiangmiao/auto-pairs'
+Plug 'zchee/deoplete-jedi'
 
 ".... modifiers ....
 Plug 'junegunn/vim-easy-align'

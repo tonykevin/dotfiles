@@ -18,7 +18,6 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 
 "...... DevIcons ......
 let g:WebDevIconsNerdTreeAfterGlyphPadding = ''
-let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 
 "...... Nerdtree-syntax-highlight
 let g:NERDTreeFileExtensionHighlightFullName = 1

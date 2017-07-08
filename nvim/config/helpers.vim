@@ -46,6 +46,12 @@ autocmd FileType python BracelessEnable +indent
 let g:closetag_filenames = '*.erb,*.html,*.js,*.jsx'
 
 
+"...... DelimitMate ......
+
+let delimitMate_expand_cr = 1
+let delimitMate_expand_space = 1
+
+
 "...... Easy-align ......
 let g:vim_action_ag_escape_chars = '#%.^$*+?()[{\\|'
 

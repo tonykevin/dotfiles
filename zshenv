@@ -1,3 +1,5 @@
+#...... Version Manager ......
+
 #nvim
 export NVM_DIR="$HOME/.nvm"
 

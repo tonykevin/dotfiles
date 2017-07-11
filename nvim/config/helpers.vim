@@ -8,6 +8,15 @@ if executable('ag')
 endif
 
 
+"...... Ale ......
+let g:ale_lint_on_text_changed = 0
+
+let g:ale_sign_error = '🔥'
+let g:ale_sign_warning = '🍵'
+let g:ale_sign_style_error = '🍍'
+let g:ale_sign_style_warning = '🍧'
+
+
 "...... CtrlP ......
 let g:ctrlp_map = '<leader>d'
 let g:ctrlp_cmd =  'CtrlP'
@@ -69,18 +78,3 @@ let g:NERDCompactSexyComs = 1
 let g:NERDCustomDelimiters = {
       \'python': { 'left': '#'}
       \}
-
-
-"...... Syntastic ......
-let g:syntastic_enable_signs = 1
-let g:syntastic_check_on_open = 1
-
-let g:syntastic_error_symbol = '🦊'
-let g:syntastic_warning_symbol = '🐥'
-let g:syntastic_style_error_symbol = '🍍'
-let g:syntastic_style_warning_symbol = '🍧'
-
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_ruby_checkers = ['rubocop']
-let g:syntastic_scss_checkers = ['scss_lint']
-let g:syntastic_styl_checkers = ['stylint']

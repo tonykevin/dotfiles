@@ -29,4 +29,5 @@ Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-surround'
 
 ".... syntax ....
-Plug 'scrooloose/syntastic'
+" Plug 'scrooloose/syntastic'
+Plug 'w0rp/ale'

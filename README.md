@@ -8,9 +8,9 @@ Linters
 
 #### CSS ####
 
-* linters
+* Linters
 
-    | name                                              | syntax     | setup                     |
+    | Name                                              | Syntax     | Setup                     |
     |---------------------------------------------------|------------|---------------------------|
     | [stylelint](https://stylelint.io)                 | __css__    | `$ npm i -g stylelint   ` |
     | [scss-lint](https://github.com/brigade/scss-lint) | __sass__   | `$ gem install scss-lint` |
@@ -22,7 +22,7 @@ Linters
 
 #### Javascript
 
-* Linter: [Eslint](http://eslint.org/)
+* Linter: [eslint](http://eslint.org/)
 
         $ npm i -g eslint
 
@@ -43,7 +43,7 @@ Linters
 
 #### Ruby
 
-* linter: [Rubocop](http://rubocop.readthedocs.io)
+* Linter: [rubocop](http://rubocop.readthedocs.io)
 
         $ gem install rubocop
 
@@ -64,6 +64,15 @@ In the [linter](./linters) folder there are properties defined for each one. You
 #### Ruby
 
     $ ln -s $LINTERS/rubocop.yml ~/.rubocop.yml
+
+Zsh
+---
+
+### Environment variables
+
+  | Variable | Description                      |
+  |----------|----------------------------------|
+  | LINTERS  | Define relative path for linters |
 
 License
 -------

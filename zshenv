@@ -1,3 +1,9 @@
+#...... Dotfiles ......
+
+#linters
+export LINTERS="$HOME/.dotfiles/linters"
+
+
 #...... Version Manager ......
 
 #nvim

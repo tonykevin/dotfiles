@@ -14,7 +14,6 @@ Linters
     |---------------------------------------------------|------------|---------------------------|
     | [stylelint](https://stylelint.io)                 | __css__    | `$ npm i -g stylelint   ` |
     | [scss-lint](https://github.com/brigade/scss-lint) | __sass__   | `$ gem install scss-lint` |
-    | [stylint](https://github.com/SimenB/stylint)      | __stylus__ | `$ npm i -g stylint     ` |
 
 * Styleguides: [standard](https://github.com/stylelint/stylelint-config-standard)
 
@@ -55,7 +54,6 @@ In the [linter](./linters) folder there are properties defined for each one. You
 
     $ ln -s $LINTERS/stylelintrc.js ~/.stylelintrc.js
     $ ln -s $LINTERS/scss-lint.yml ~/.scss-lint.yml
-    $ ln -s $LINTERS/stylintrc ~/.stylintrc
 
 #### Javascript
 

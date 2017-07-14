@@ -1,6 +1,6 @@
-import stylelintConfigStandard from 'stylelint-config-standard'
+const nodePrefix = process.env.NODE_PATH
 
-export default {
-  'extends': stylelintConfigStandard,
-  'rules': {}
+module.exports = {
+  extends: `${nodePrefix}/stylelint-config-standard`,
+  rules: {}
 }

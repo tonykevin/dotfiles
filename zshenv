@@ -16,3 +16,7 @@ export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 
 #rvm
 export PATH="$PATH:$HOME/.rvm/bin"
+
+
+#...... Helpers ......
+export NODE_PATH=`npm root -g`

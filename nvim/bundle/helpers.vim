@@ -10,8 +10,8 @@ Plug 'scrooloose/nerdtree'
 
 "-- Code --
 
-Plug 'ap/vim-css-color'
 Plug 'ervandew/supertab'
+Plug 'gko/vim-coloresque'
 
 ".... autocomplete ....
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }

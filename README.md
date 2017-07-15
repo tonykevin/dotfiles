@@ -73,14 +73,14 @@ Zsh
         $ ln -s ~/.dotfiles/zshenv ~/.zshenv
 
   * Description a environment variables:
-
-        | Variable                            | Description                                          |
-        |-------------------------------------|------------------------------------------------------|
-        | __LINTERS__                         | Path for the settings of each linters.               |
-        | __NODE_PATH__                       | Path for _node_ global modules.                      |
-        | __NVIM_DIR__                        | Path for sources of _nvim_.                          |
-        | __PYENV_ROOT__                      | Path for sources of _pyenv_.                         |
-        | __PYENV_VIRTUALENV_DISABLE_PROMPT__ | Disable the _virtualenv_ environment name in prompt. |
+  
+    | Variable                            | Description                                          |
+    |-------------------------------------|------------------------------------------------------|
+    | __LINTERS__                         | Path for the settings of each linters.               |
+    | __NODE_PATH__                       | Path for _node_ global modules.                      |
+    | __NVIM_DIR__                        | Path for sources of _nvim_.                          |
+    | __PYENV_ROOT__                      | Path for sources of _pyenv_.                         |
+    | __PYENV_VIRTUALENV_DISABLE_PROMPT__ | Disable the _virtualenv_ environment name in prompt. |
 
 * Create symlinks for startup applications
 

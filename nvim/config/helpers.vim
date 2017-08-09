@@ -17,6 +17,7 @@ let g:ale_sign_style_error = '🍸'
 let g:ale_sign_style_warning = '🍧'
 
 let g:ale_pattern_options = {
+      \ '\.erb$': { 'ale_enabled': 0 },
       \ '\.styl$': { 'ale_enabled': 0 }
       \ }
 

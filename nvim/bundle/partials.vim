@@ -9,6 +9,7 @@ Plug 'tpope/vim-fugitive'
 "-- Languages --
 
 ".... css ....
+Plug 'alexlafroscia/postcss-syntax.vim'
 Plug 'rstacruz/vim-hyperstyle', { 'for': ['scss', 'stylus'] }
 
 ".... javascript ....

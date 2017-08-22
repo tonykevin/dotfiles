@@ -8,6 +8,9 @@ nnoremap gd :bdelete<CR>
 "Esc key
 inoremap fj <esc>
 
+"Enter
+imap <M-m> <CR>
+
 "Leader
 let mapleader = ","
 

@@ -1,5 +1,8 @@
 "Key mappings - Global
 
+"Backspace
+inoremap <M-h> <BS>
+
 "Buffer
 nnoremap gj :bprevious<CR>
 nnoremap gk :bnext<CR>
@@ -9,7 +12,7 @@ nnoremap gd :bdelete<CR>
 inoremap fj <esc>
 
 "Enter
-imap <M-m> <CR>
+imap <M-o> <CR>
 
 "Leader
 let mapleader = ","

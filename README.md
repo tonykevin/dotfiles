@@ -12,7 +12,6 @@ Linters
 
     | Name                                              | Syntax     | Setup                     |
     |---------------------------------------------------|------------|---------------------------|
-    | [stylelint](https://stylelint.io)                 | __css__    | `$ npm i -g stylelint   ` |
     | [scss-lint](https://github.com/brigade/scss-lint) | __sass__   | `$ gem install scss-lint` |
 
 * Styleguides: [standard](https://github.com/stylelint/stylelint-config-standard)
@@ -77,7 +76,6 @@ Zsh
     | Variable                            | Description                                          |
     |-------------------------------------|------------------------------------------------------|
     | __LINTERS__                         | Path for the settings of each linters.               |
-    | __NODE_PATH__                       | Path for _node_ global modules.                      |
     | __NVIM_DIR__                        | Path for sources of _nvim_.                          |
     | __PYENV_ROOT__                      | Path for sources of _pyenv_.                         |
     | __PYENV_VIRTUALENV_DISABLE_PROMPT__ | Disable the _virtualenv_ environment name in prompt. |

@@ -40,6 +40,16 @@ if &term =~ '256color'
 endif
 
 
+" Global autocommands
+
+augroup filetype_all
+  au!
+  "Autocomplete the relative filename
+  au InsertEnter * let save_cwd = getcwd() | set autochdir
+  au InsertLeave * set noautochdir | execute 'cd' fnameescape(save_cwd)
+augroup END
+
+
 "Global variables
 
 "-- Providers --

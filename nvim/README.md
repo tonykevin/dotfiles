@@ -10,6 +10,10 @@ Settings neovim
 
 * [Python client for neovim](https://github.com/neovim/python-client)
 
+* Define custom environment variables (check section [zsh](../README.md))
+
+* Install linters (check section [linters](../README.md))
+
 ## Install
 
 * Clone repository

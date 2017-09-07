@@ -4,19 +4,15 @@ My dotfiles
 Linters
 -------
 
-### Install packages
+### Requirements
 
-#### CSS ####
+#### CSS
 
 * Linters
 
     | Name                                              | Syntax     | Setup                     |
     |---------------------------------------------------|------------|---------------------------|
     | [scss-lint](https://github.com/brigade/scss-lint) | __sass__   | `$ gem install scss-lint` |
-
-* Styleguides: [standard](https://github.com/stylelint/stylelint-config-standard)
-
-        $ npm i -g stylelint-config-standard
 
 #### Javascript
 
@@ -51,7 +47,6 @@ In the [linter](./linters) folder there are properties defined for each one. You
 
 #### CSS
 
-    $ ln -s $LINTERS/stylelintrc.js ~/.stylelintrc.js
     $ ln -s $LINTERS/scss-lint.yml ~/.scss-lint.yml
 
 #### Javascript
@@ -65,14 +60,14 @@ In the [linter](./linters) folder there are properties defined for each one. You
 Zsh
 ---
 
-### Customize
+### Environment variables
 
 * Create symlinks to set environment variables
 
         $ ln -s ~/.dotfiles/zshenv ~/.zshenv
 
   * Description a environment variables:
-  
+
     | Variable                            | Description                                          |
     |-------------------------------------|------------------------------------------------------|
     | __LINTERS__                         | Path for the settings of each linters.               |
@@ -80,7 +75,10 @@ Zsh
     | __PYENV_ROOT__                      | Path for sources of _pyenv_.                         |
     | __PYENV_VIRTUALENV_DISABLE_PROMPT__ | Disable the _virtualenv_ environment name in prompt. |
 
-* Create symlinks for startup applications
+
+### Startup applications
+
+* Create symlinks for startup applications(nvm, pyenv, rvm)
 
         $ ln -s ~/.dotfiles/zlogin ~/.zlogin
 

@@ -10,6 +10,7 @@ Plug 'tpope/vim-fugitive'
 
 ".... css ....
 Plug 'alexlafroscia/postcss-syntax.vim'
+Plug 'hail2u/vim-css3-syntax', { 'for': ['css', 'scss'] }
 Plug 'rstacruz/vim-hyperstyle', { 'for': ['css', 'scss', 'stylus'] }
 
 ".... javascript ....

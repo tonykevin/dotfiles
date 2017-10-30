@@ -2,9 +2,11 @@
 
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'ajh17/Spacegray.vim'
+Plug 'ajmwagar/vim-deus'
 Plug 'altercation/vim-colors-solarized'
 Plug 'chriskempson/base16-vim'
 Plug 'christophermca/meta5'
+Plug 'cseelus/vim-colors-lucid'
 Plug 'freeo/vim-kalisi'
 Plug 'joshdick/onedark.vim'
 Plug 'jpo/vim-railscasts-theme'

@@ -24,7 +24,7 @@ Plug 'othree/yajs.vim', { 'for': 'javascript' }
 Plug 'elzr/vim-json'
 
 ".... python ....
-Plug 'klen/python-mode'
+Plug 'klen/python-mode', { 'branch': 'develop' }
 
 ".... ruby ....
 Plug 'tpope/vim-bundler'

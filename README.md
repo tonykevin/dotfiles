@@ -80,7 +80,7 @@ Zsh
 
 * Create symlinks for startup applications(nvm, pyenv, rvm)
 
-        $ ln -s ~/.dotfiles/zlogin ~/.zlogin
+        $ ln -s ~/.dotfiles/zprofile ~/.zprofile
 
 License
 -------

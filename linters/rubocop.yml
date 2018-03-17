@@ -3,6 +3,7 @@ AllCops:
     - Rakefile
     - config.ru
   Excludes:
+    - Gemfile
     - db/**
     - config/**
     - script/**

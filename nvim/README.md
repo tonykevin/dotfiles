@@ -18,7 +18,7 @@ Settings neovim
 
 * Clone repository
 
-        $ git clone https://github.com/ikibits/dotfiles.git ~/.dotfiles
+        $ git clone https://github.com/tonykevin/dotfiles.git ~/.dotfiles
 
 * Create symlink
 

@@ -25,4 +25,5 @@ source ~/.config/nvim/keys/partials.vim
 "Optional settings
 
 source ~/.config/nvim/extra/global.vim
+source ~/.config/nvim/extra/partials.vim
 source ~/.config/nvim/extra/test.vim

@@ -16,7 +16,6 @@ Plug 'rstacruz/vim-hyperstyle', { 'for': ['css', 'scss', 'stylus'] }
 ".... javascript ....
 Plug 'gavocanov/vim-js-indent', { 'for': 'javascript' }
 Plug 'moll/vim-node'
-Plug 'othree/es.next.syntax.vim', { 'for': 'javascript' }
 Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'othree/yajs.vim', { 'for': 'javascript' }
 

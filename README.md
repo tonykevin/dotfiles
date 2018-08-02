@@ -8,38 +8,39 @@ Linters
 
 #### CSS
 
-* Linters
+[Scss-lint](https://github.com/brigade/scss-lint)
 
-    | Name                                              | Syntax     | Setup                     |
-    |---------------------------------------------------|------------|---------------------------|
-    | [scss-lint](https://github.com/brigade/scss-lint) | __sass__   | `$ gem install scss-lint` |
+```bash
+    $ gem install scss-lint
+```
 
 #### Javascript
 
-* Linter: [eslint](http://eslint.org/)
+[Eslint](http://eslint.org/)
 
-        $ npm i -g eslint
+```bash
+    $ npm i -g eslint
+```
 
-* Styleguides
+> ##### Eslint plugins
+>
+> * [Babel-eslint](https://github.com/babel/babel-eslint)
+> * [Eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
+> * [EsLint-plugin-React](https://github.com/yannickcr/eslint-plugin-react)
 
-  * [Standard](https://standardjs.com)
+[Standard](https://standardjs.com)
 
-            $ npm i -g eslint-config-standard eslint-plugin-standard\
-                       eslint-plugin-import eslint-plugin-node
-
-  * [Promises](https://github.com/xjamundx/eslint-plugin-promise)
-
-            $ npm i -g eslint-plugin-promise
-
-  * [Reactjs](https://github.com/yannickcr/eslint-plugin-react)
-
-            $ npm i -g eslint-config-standard-react eslint-plugin-react
+```bash
+    $ npm i -g standard
+```
 
 #### Ruby
 
-* Linter: [rubocop](http://rubocop.readthedocs.io)
+[Rubocop](http://rubocop.readthedocs.io)
 
-        $ gem install rubocop
+```bash
+    $ gem install rubocop
+```
 
 ### Configure linter options
 
@@ -47,15 +48,21 @@ In the [linter](./linters) folder there are properties defined for each one. You
 
 #### CSS
 
-    $ ln -s $LINTERS/scss-lint.yml ~/.scss-lint.yml
+```bash
+$ ln -s $LINTERS/scss-lint.yml ~/.scss-lint.yml
+```
 
 #### Javascript
 
-    $ ln -s $LINTERS/eslintrc.json ~/.eslintrc.json
+```bash
+$ ln -s $LINTERS/eslintrc.json ~/.eslintrc.json
+```
 
 #### Ruby
 
-    $ ln -s $LINTERS/rubocop.yml ~/.rubocop.yml
+```bash
+$ ln -s $LINTERS/rubocop.yml ~/.rubocop.yml
+```
 
 Zsh
 ---
@@ -64,7 +71,9 @@ Zsh
 
 * Create symlinks to set environment variables
 
-        $ ln -s ~/.dotfiles/zshenv ~/.zshenv
+    ```bash
+    $ ln -s ~/.dotfiles/zshenv ~/.zshenv
+    ```
 
   * Description a environment variables:
 
@@ -80,7 +89,9 @@ Zsh
 
 * Create symlinks for startup applications(nvm, pyenv, rvm)
 
-        $ ln -s ~/.dotfiles/zprofile ~/.zprofile
+    ```bash
+    $ ln -s ~/.dotfiles/zprofile ~/.zprofile
+    ```
 
 License
 -------

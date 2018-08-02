@@ -5,13 +5,20 @@
     "mongo": true,
     "node": true
   },
-  "extends": ["standard", "standard-react"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "jsx-a11y",
+    "react"
+  ],
   "rules": {
     "no-console": "warn",
     "react/jsx-closing-bracket-location": "error",
     "react/jsx-no-bind": "error",
-    "react/jsx-pascal-case": "error",
-    "react/no-multi-comp": "error",
-    "react/no-string-refs": "error"
+    "react/no-multi-comp": "error"
   }
 }

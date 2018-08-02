@@ -10,19 +10,10 @@ Linters
 
 [Scss-lint](https://github.com/brigade/scss-lint)
 
-```bash
-    $ gem install scss-lint
-```
-
 #### Javascript
 
 [Eslint](http://eslint.org/)
-
-```bash
-    $ npm i -g eslint
-```
-
-> ##### Eslint plugins
+> ##### Plugins
 >
 > * [Babel-eslint](https://github.com/babel/babel-eslint)
 > * [Eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
@@ -30,21 +21,13 @@ Linters
 
 [Standard](https://standardjs.com)
 
-```bash
-    $ npm i -g standard
-```
-
 #### Ruby
 
 [Rubocop](http://rubocop.readthedocs.io)
 
-```bash
-    $ gem install rubocop
-```
-
 ### Configure linter options
 
-In the [linter](./linters) folder there are properties defined for each one. You can customize it according to your goals, then create symlinks.
+In the [linter](./linters) folder there are rules for each one. You can customize it according to your goals, then create symlinks.
 
 #### CSS
 
@@ -63,6 +46,13 @@ $ ln -s $LINTERS/eslintrc.json ~/.eslintrc.json
 ```bash
 $ ln -s $LINTERS/rubocop.yml ~/.rubocop.yml
 ```
+
+Nvim
+-------
+
+It is an extension of __Vim__ that includes new features: runs processes asynchronously, reduces the definition of traditional rules, for more information visit [Neovim](https://neovim.io/).
+
+My Nvim settings is available [here](./nvim)
 
 Zsh
 ---

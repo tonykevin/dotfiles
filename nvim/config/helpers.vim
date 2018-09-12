@@ -49,12 +49,6 @@ let NERDTreeIgnore = [
 
 "-- Code --
 
-
-"...... Braceless ......
-
-autocmd FileType python BracelessEnable +indent
-
-
 "...... Closetag ......
 let g:closetag_filenames = '*.erb,*.html,*.js,*.jsx'
 

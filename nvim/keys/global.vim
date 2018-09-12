@@ -38,8 +38,8 @@ nnoremap <leader>w :%s/\s\+$//<cr>:let @/=''<CR>
 "Sort line
 vnoremap <leader>s !sort<cr>
 
-"Scrolling relative to last line
-nnoremap <leader>t Gz.
+"Scrolling relative to last line and edit (scroll-cursor)
+nnoremap <leader>t Gz.o
 
 "Window splitting remap"
 nnoremap <leader>b <C-w>s<C-w>j

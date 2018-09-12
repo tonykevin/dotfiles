@@ -7,7 +7,7 @@ nnoremap <Leader>a :Ack!<Space>
 
 "...... DelimitMate ......
 imap <A-m> <Plug>delimitMateS-Tab
-imap <A-n> <Plug>delimitMateJumpMany
+imap <A-l> <Plug>delimitMateJumpMany
 
 " --- NERDTree
 "

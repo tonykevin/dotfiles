@@ -14,6 +14,9 @@ inoremap fj <esc>
 "Enter
 imap <M-o> <CR>
 
+"Jump next line to edit
+inoremap <A-n> <esc>A<CR>
+
 "Leader
 let mapleader = ","
 

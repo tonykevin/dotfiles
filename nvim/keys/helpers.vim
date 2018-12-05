@@ -9,6 +9,10 @@ nnoremap <Leader>a :Ack!<Space>
 imap <A-m> <Plug>delimitMateS-Tab
 imap <A-l> <Plug>delimitMateJumpMany
 
+" --- IndentLine
+nnoremap <A-l> :IndentLinesToggle<CR>
+
 " --- NERDTree
 "
 nnoremap <A-d> :NERDTreeToggle<CR>
+

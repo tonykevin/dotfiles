@@ -16,7 +16,6 @@ Plug 'ervandew/supertab'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Raimondi/delimitMate'
 Plug 'alvan/vim-closetag'
-Plug 'zchee/deoplete-jedi'
 
 ".... indent ....
 Plug 'Yggdroot/indentLine'

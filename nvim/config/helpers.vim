@@ -42,7 +42,9 @@ let NERDTreeIgnore = [
       \'.lot$',
       \'.run.xml$',
       \'.toc$',
-      \'synctex.gz$'
+      \'synctex.gz$',
+      \'__pycache__',
+      \'\.pyc$'
       \]
 
 

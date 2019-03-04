@@ -25,6 +25,7 @@ Plug 'elzr/vim-json'
 
 ".... python ....
 Plug 'klen/python-mode', { 'branch': 'develop' }
+Plug 'deoplete-plugins/deoplete-jedi'
 
 ".... ruby ....
 Plug 'tpope/vim-bundler'

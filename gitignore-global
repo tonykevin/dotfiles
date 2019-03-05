@@ -17,6 +17,9 @@ specificity-graph
 # rope project settings
 .ropeproject
 
+# pyenv
+.python-version
+
 
 #--- Vim ---
 

@@ -17,7 +17,7 @@
     "react"
   ],
   "rules": {
-    "no-console": "warn",
+    "no-console": "off",
     "react/jsx-closing-bracket-location": "error",
     "react/jsx-no-bind": "error",
     "react/no-multi-comp": "error"

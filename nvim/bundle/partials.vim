@@ -19,6 +19,7 @@ Plug 'moll/vim-node'
 Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'othree/yajs.vim', { 'for': 'javascript' }
 Plug 'othree/es.next.syntax.vim', { 'for': 'javascript' }
+Plug 'carlitux/deoplete-ternjs', { 'do': 'yarn global add tern' }
 
 ".... json ....
 Plug 'elzr/vim-json'

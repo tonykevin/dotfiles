@@ -1,3 +1,8 @@
+# GLOBAL GITIGNORE
+
+# logs
+*.log
+
 #--- CSS ---
 
 specificity-graph
@@ -6,10 +11,10 @@ specificity-graph
 *.orig
 
 
-#--- Node ---
+#--- Javascript ---
 
-# logs
-*.log
+# ternjs
+.tern-port
 
 
 #--- Python ---

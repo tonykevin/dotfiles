@@ -54,6 +54,18 @@ It is an extension of __Vim__ that includes new features: runs processes asynchr
 
 My Nvim settings is available [here](./nvim)
 
+## R
+
+R is a programming language and free software environment for statistical computing and graphics.
+
+### Settings
+
+Set variables in R with [.Renviron](./Renviron), then create a link to the file.
+
+```bash
+$ ln -s ~/.dotfiles/Renviron ~/.Renviron
+```
+
 Zsh
 ---
 

@@ -52,7 +52,7 @@ let NERDTreeIgnore = [
 "-- Code --
 
 "...... Closetag ......
-let g:closetag_filenames = '*.erb,*.html,*.js,*.jsx'
+let g:closetag_filenames = '*.erb,*.html,*.hbs,*.js,*.jsx'
 
 
 "...... DelimitMate ......

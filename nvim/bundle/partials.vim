@@ -13,6 +13,9 @@ Plug 'alexlafroscia/postcss-syntax.vim'
 Plug 'hail2u/vim-css3-syntax', { 'for': ['css', 'scss'] }
 Plug 'rstacruz/vim-hyperstyle', { 'for': ['css', 'scss', 'stylus'] }
 
+".... html ....
+Plug 'othree/html5.vim'
+
 ".... javascript ....
 Plug 'gavocanov/vim-js-indent', { 'for': 'javascript' }
 Plug 'moll/vim-node'

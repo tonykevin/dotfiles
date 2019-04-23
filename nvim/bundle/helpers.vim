@@ -1,34 +1,37 @@
 "Helper bundles
 
-"-- Files --
+"----------Files---------
 
-".... handle ....
+"... handle ...
 Plug 'mileszs/ack.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 
 
-"-- Code --
+"----------Code----------
 
 Plug 'ervandew/supertab'
 
-".... autocomplete ....
+"... autocomplete ...
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Raimondi/delimitMate'
 Plug 'alvan/vim-closetag'
 Plug 'fszymanski/deoplete-emoji'
 
-".... indent ....
+"... show indent line ...
 Plug 'Yggdroot/indentLine'
 
-".... modifiers ....
+"... modifiers ...
 Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdcommenter'
 Plug 'tweekmonster/braceless.vim'
 
-".... navigate ....
+"... navigate ...
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-surround'
 
-".... syntax ....
+"... check syntax ...
 Plug 'w0rp/ale'
+
+"... highlight syntax ...
+Plug 'sheerun/vim-polyglot'

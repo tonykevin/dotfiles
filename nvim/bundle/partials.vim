@@ -1,41 +1,47 @@
-"Partial bundles
+" PARTIAL BUNDLES
 
-"-- Applications --
+"--------CSS-------------
+"
+"... helper ...
+Plug 'rstacruz/vim-hyperstyle', { 'for': ['css', 'scss', 'stylus'] }
+"
+"... syntax ...
+Plug 'alexlafroscia/postcss-syntax.vim'
+Plug 'hail2u/vim-css3-syntax', { 'for': ['css', 'scss'] }
 
-".... git ....
+
+"--------Git-------------
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 
-"-- Languages --
 
-".... css ....
-Plug 'alexlafroscia/postcss-syntax.vim'
-Plug 'hail2u/vim-css3-syntax', { 'for': ['css', 'scss'] }
-Plug 'rstacruz/vim-hyperstyle', { 'for': ['css', 'scss', 'stylus'] }
-
-".... html ....
+"----------Html----------
 Plug 'othree/html5.vim'
 
-".... javascript ....
+
+"-------Javascript-------
+"
+"... helper ...
+Plug 'carlitux/deoplete-ternjs', { 'do': 'yarn global add tern' }
 Plug 'gavocanov/vim-js-indent', { 'for': 'javascript' }
+"
+"... syntax ...
 Plug 'moll/vim-node'
 Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'othree/yajs.vim', { 'for': 'javascript' }
 Plug 'othree/es.next.syntax.vim', { 'for': 'javascript' }
-Plug 'carlitux/deoplete-ternjs', { 'do': 'yarn global add tern' }
 
-".... json ....
+
+"----------Json----------
 Plug 'elzr/vim-json'
 
-".... python ....
+
+"---------Python---------
 Plug 'klen/python-mode', { 'branch': 'develop' }
 Plug 'deoplete-plugins/deoplete-jedi'
 
-".... ruby ....
+
+"----------Ruby----------
 Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-rails'
-
-"-- Syntax --
-
-Plug 'sheerun/vim-polyglot'

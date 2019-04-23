@@ -1,35 +1,21 @@
 "Helper settings
 
-"-- Files --
+"----------Files---------
 
-"...... Ag ......
+"... handle ...
+"
+" ag
 if executable('ag')
   let g:ackprg = 'ag --vimgrep'
 endif
-
-
-"...... Ale ......
-let g:ale_lint_on_text_changed = 0
-
-let g:ale_sign_error = '💫'
-let g:ale_sign_warning = '🐾'
-let g:ale_sign_style_error = '🍸'
-let g:ale_sign_style_warning = '🍧'
-
-let g:ale_pattern_options = {
-      \ '\.erb$': { 'ale_enabled': 0 },
-      \ '\.styl$': { 'ale_enabled': 0 }
-      \ }
-
-"...... CtrlP ......
+"
+" ctrlP
 let g:ctrlp_map = '<leader>d'
 let g:ctrlp_cmd =  'CtrlP'
-
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 let g:ctrlp_use_caching = 0
-
-
-"...... NERDTree ......
+"
+" NERDTree
 let NERDTreeQuitOnOpen = 1
 let NERDTreeIgnore = [
       \'.git',
@@ -47,33 +33,41 @@ let NERDTreeIgnore = [
       \'\.pyc$'
       \]
 
+" ale
+let g:ale_lint_on_text_changed = 0
+let g:ale_sign_error = '💫'
+let g:ale_sign_warning = '🐾'
+let g:ale_sign_style_error = '🍸'
+let g:ale_sign_style_warning = '🍧'
+let g:ale_pattern_options = {
+      \ '\.erb$': { 'ale_enabled': 0 },
+      \ '\.styl$': { 'ale_enabled': 0 }
+      \ }
 
 
-"-- Code --
+"----------Code----------
 
-"...... Closetag ......
+"... autocomplete ...
+"
+" closetag
 let g:closetag_filenames = '*.erb,*.html,*.hbs,*.js,*.jsx'
-
-
-"...... DelimitMate ......
-
+"
+" delimitMate ...
 let delimitMate_expand_cr = 1
 let delimitMate_expand_space = 1
 let delimitMate_matchpairs = "(:),[:],{:}"
-
-
-"...... Easy-align ......
-let g:vim_action_ag_escape_chars = '#%.^$*+?()[{\\|'
-
-nmap ga <Plug>(EasyAlign)
-xmap ga <Plug>(EasyAlign)
-
-
-"...... Deoplete ......
+"
+" deoplete
 let g:deoplete#enable_at_startup = 1
 
-
-"...... NerdCommenter ......
+"... modifiers ...
+"
+" easy-align
+let g:vim_action_ag_escape_chars = '#%.^$*+?()[{\\|'
+nmap ga <Plug>(EasyAlign)
+xmap ga <Plug>(EasyAlign)
+"
+" nerdCommenter
 let g:NERDSpaceDelims = 1
 let g:NERDCompactSexyComs = 1
 let g:NERDCustomDelimiters = {

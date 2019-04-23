@@ -1,9 +1,9 @@
 "UI bundles
 
-"-- Status lines --
+"... Status lines ...
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-"-- Icons --
+"... Icons ...
 Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'

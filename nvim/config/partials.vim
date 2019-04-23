@@ -1,6 +1,8 @@
-"Partials settings
+"PARTIAL CONFIGURATIONS
 
-"-- Languages --
-
-"...... Javascript-libraries-syntax ......
+"-------Javascript-------
+"
+"... Syntax ...
+"
+" javascript-libraries-syntax
 let g:used_javascript_libs = 'chai, d3, flux, react'

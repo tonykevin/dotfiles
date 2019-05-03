@@ -1,54 +1,8 @@
 My dotfiles
 ===========
 
-Linters
--------
-
-### Requirements
-
-#### CSS
-
-[Scss-lint](https://github.com/brigade/scss-lint)
-
-#### Javascript
-
-[Eslint](http://eslint.org/)
-> ##### Plugins
->
-> * [Babel-eslint](https://github.com/babel/babel-eslint)
-> * [Eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
-> * [EsLint-plugin-React](https://github.com/yannickcr/eslint-plugin-react)
-
-[Standard](https://standardjs.com)
-
-#### Ruby
-
-[Rubocop](http://rubocop.readthedocs.io)
-
-### Configure linter options
-
-In the [linter](./linters) folder there are rules for each one. You can customize it according to your goals, then create symlinks.
-
-#### CSS
-
-```bash
-$ ln -s $LINTERS/scss-lint.yml ~/.scss-lint.yml
-```
-
-#### Javascript
-
-```bash
-$ ln -s $LINTERS/eslintrc.json ~/.eslintrc.json
-```
-
-#### Ruby
-
-```bash
-$ ln -s $LINTERS/rubocop.yml ~/.rubocop.yml
-```
-
 Nvim
--------
+----
 
 It is an extension of __Vim__ that includes new features: runs processes asynchronously, reduces the definition of traditional rules, for more information visit [Neovim](https://neovim.io/).
 

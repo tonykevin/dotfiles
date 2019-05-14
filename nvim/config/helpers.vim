@@ -19,7 +19,6 @@ let g:ctrlp_use_caching = 0
 let NERDTreeQuitOnOpen = 1
 let NERDTreeIgnore = [
       \'.git',
-      \'data',
       \'node_modules',
       \'.sass-cache',
       \'.aux$',

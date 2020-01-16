@@ -30,8 +30,6 @@ Plug 'tweekmonster/braceless.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-surround'
 
+
 "... check syntax ...
 Plug 'w0rp/ale'
-
-"... highlight syntax ...
-Plug 'sheerun/vim-polyglot'

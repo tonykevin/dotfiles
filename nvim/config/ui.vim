@@ -2,10 +2,10 @@
 
 syntax enable
 
-source ~/.config/nvim/config/themes/grubvox.vim
+"Theme: colorscheme and airline
+source ~/.config/nvim/config/themes/hybrid.vim
 
 "...... Airline ......
-let g:airline_theme = 'hybrid'
 let g:airline_powerline_fonts = 1
 
 let g:airline#extensions#tabline#enabled = 1

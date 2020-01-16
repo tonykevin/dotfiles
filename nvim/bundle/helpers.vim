@@ -18,6 +18,9 @@ Plug 'Raimondi/delimitMate'
 Plug 'alvan/vim-closetag'
 Plug 'fszymanski/deoplete-emoji'
 
+"... highlight brackets
+Plug 'luochen1990/rainbow'
+
 "... show indent line ...
 Plug 'Yggdroot/indentLine'
 

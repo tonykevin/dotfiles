@@ -73,3 +73,6 @@ let g:NERDCompactSexyComs = 1
 let g:NERDCustomDelimiters = {
       \'python': { 'left': '#'}
       \}
+"
+" rainbow
+let g:rainbow_active = 1

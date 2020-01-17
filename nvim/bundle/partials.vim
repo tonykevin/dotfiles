@@ -17,6 +17,7 @@ Plug 'tpope/vim-fugitive'
 
 "----------Html----------
 Plug 'othree/html5.vim'
+Plug 'digitaltoad/vim-pug'
 
 
 "-------Javascript-------

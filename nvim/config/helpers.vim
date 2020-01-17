@@ -52,11 +52,6 @@ let g:ale_pattern_options = {
 " closetag
 let g:closetag_filenames = '*.erb,*.html,*.hbs,*.js,*.jsx'
 "
-" delimitMate ...
-let delimitMate_expand_cr = 1
-let delimitMate_expand_space = 1
-let delimitMate_matchpairs = "(:),[:],{:}"
-"
 " deoplete
 let g:deoplete#enable_at_startup = 1
 

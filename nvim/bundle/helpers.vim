@@ -14,7 +14,7 @@ Plug 'ervandew/supertab'
 
 "... autocomplete ...
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'Raimondi/delimitMate'
+Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
 Plug 'fszymanski/deoplete-emoji'
 

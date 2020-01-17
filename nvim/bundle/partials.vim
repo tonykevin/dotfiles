@@ -24,6 +24,8 @@ Plug 'othree/html5.vim'
 "... helper ...
 Plug 'carlitux/deoplete-ternjs', { 'do': 'yarn global add tern' }
 Plug 'gavocanov/vim-js-indent', { 'for': 'javascript' }
+Plug 'maxmellon/vim-jsx-pretty'
+
 "
 "... syntax ...
 Plug 'moll/vim-node'

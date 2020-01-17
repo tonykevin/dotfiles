@@ -2,6 +2,8 @@
 
 syntax enable
 
+let g:enable_italic_font = 1
+
 "Theme: colorscheme and airline
 source ~/.config/nvim/config/themes/hybrid.vim
 

@@ -25,6 +25,7 @@ Plug 'digitaltoad/vim-pug'
 "... helper ...
 Plug 'carlitux/deoplete-ternjs', { 'do': 'yarn global add tern' }
 Plug 'gavocanov/vim-js-indent', { 'for': 'javascript' }
+Plug 'leafoftree/vim-svelte-plugin'
 Plug 'maxmellon/vim-jsx-pretty'
 
 "

@@ -50,7 +50,7 @@ let g:ale_pattern_options = {
 "... autocomplete ...
 "
 " closetag
-let g:closetag_filenames = '*.erb,*.html,*.hbs,*.js,*.jsx'
+let g:closetag_filenames = '*.erb,*.html,*.hbs,*.js,*.jsx,*.svelte'
 "
 " deoplete
 let g:deoplete#enable_at_startup = 1

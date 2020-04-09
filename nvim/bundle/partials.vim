@@ -20,10 +20,6 @@ Plug 'othree/html5.vim'
 Plug 'digitaltoad/vim-pug'
 
 
-"----------Go------------
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-
-
 "-------Javascript-------
 "
 "... helper ...

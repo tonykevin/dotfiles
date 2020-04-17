@@ -1,7 +1,7 @@
 " Custom settings for javascript
 augroup css
   au!
-  au FileType css,scss setlocal iskeyword+=-
+  au FileType css,scss,javascript setlocal iskeyword+=-
 augroup END
 
 augroup javascript

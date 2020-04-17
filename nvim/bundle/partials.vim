@@ -28,6 +28,8 @@ Plug 'gavocanov/vim-js-indent', { 'for': 'javascript' }
 Plug 'leafoftree/vim-svelte-plugin'
 Plug 'maxmellon/vim-jsx-pretty'
 
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+
 "
 "... syntax ...
 Plug 'moll/vim-node'

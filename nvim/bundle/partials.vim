@@ -1,5 +1,10 @@
 " PARTIAL BUNDLES
 
+"--------Cpp-------------
+"
+Plug 'bfrg/vim-cpp-modern'
+
+
 "--------CSS-------------
 "
 "... helper ...

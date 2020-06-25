@@ -17,7 +17,6 @@ Plug 'joshdick/onedark.vim'
 Plug 'jpo/vim-railscasts-theme'
 Plug 'junegunn/seoul256.vim'
 Plug 'kristijanhusak/vim-hybrid-material'
-Plug 'kyoz/purify', { 'rtp': 'vim' }
 Plug 'mhartington/oceanic-next'
 Plug 'morhetz/gruvbox'
 Plug 'nanotech/jellybeans.vim'

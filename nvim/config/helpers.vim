@@ -18,19 +18,19 @@ let g:ctrlp_use_caching = 0
 " NERDTree
 let NERDTreeQuitOnOpen = 1
 let NERDTreeIgnore = [
-      \'.git',
-      \'node_modules',
-      \'.sass-cache',
-      \'.aux$',
-      \'.bcf$',
-      \'.lof$',
-      \'.log$',
-      \'.lot$',
-      \'.run.xml$',
-      \'.toc$',
-      \'synctex.gz$',
-      \'__pycache__',
-      \'\.pyc$'
+      \'.git$[[dir]]',
+      \'node_modules$[[dir]]',
+      \'.sass-cache$[[dir]]',
+      \'.aux$[[file]]',
+      \'.bcf$[[file]]',
+      \'.lof$[[file]]',
+      \'.log$[[file]]',
+      \'.lot$[[file]]',
+      \'.run.xml$[[file]]',
+      \'.toc$[[file]]',
+      \'synctex.gz$[[file]]',
+      \'__pycache__$[[dir]]',
+      \'\.pyc$[[file]]'
       \]
 
 " ale

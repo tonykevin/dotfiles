@@ -19,6 +19,9 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
 Plug 'fszymanski/deoplete-emoji'
 
+"... check syntax ...
+Plug 'w0rp/ale'
+
 "... highlight brackets
 Plug 'luochen1990/rainbow'
 
@@ -34,6 +37,5 @@ Plug 'tweekmonster/braceless.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-surround'
 
-
-"... check syntax ...
-Plug 'w0rp/ale'
+"... syntax ...
+Plug 'sheerun/vim-polyglot'

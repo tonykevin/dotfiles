@@ -27,6 +27,8 @@ Plug 'digitaltoad/vim-pug'
 
 "-------Javascript-------
 "
+Plug 'moll/vim-node'
+
 "... helper ...
 Plug 'carlitux/deoplete-ternjs', { 'do': 'yarn global add tern' }
 Plug 'gavocanov/vim-js-indent', { 'for': 'javascript' }
@@ -34,17 +36,6 @@ Plug 'leafoftree/vim-svelte-plugin'
 Plug 'maxmellon/vim-jsx-pretty'
 
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
-
-"
-"... syntax ...
-Plug 'moll/vim-node'
-Plug 'othree/javascript-libraries-syntax.vim'
-Plug 'othree/yajs.vim', { 'for': 'javascript' }
-Plug 'othree/es.next.syntax.vim', { 'for': 'javascript' }
-
-
-"----------Json----------
-Plug 'elzr/vim-json'
 
 
 "---------Python---------

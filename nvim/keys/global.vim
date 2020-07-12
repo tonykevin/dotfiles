@@ -8,6 +8,11 @@ nnoremap gj :bprevious<CR>
 nnoremap gk :bnext<CR>
 nnoremap gd :bdelete<CR>
 
+"Conceal markers.
+if has('conceal')
+  set conceallevel=2 concealcursor=niv
+endif
+
 "Esc key
 inoremap fj <esc>
 

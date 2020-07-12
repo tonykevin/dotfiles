@@ -15,6 +15,8 @@ Plug 'scrooloose/nerdtree'
 
 "... autocomplete ...
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'Shougo/neosnippet.vim'
+Plug 'tonykevin/neosnippet-snippets'
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
 Plug 'fszymanski/deoplete-emoji'

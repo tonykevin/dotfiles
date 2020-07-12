@@ -4,8 +4,7 @@ syntax enable
 
 let g:enable_italic_font = 1
 
-"Theme: colorscheme and airline
-source ~/.config/nvim/config/themes/hybrid.vim
+source ~/.config/nvim/config/themes/tokyonight.vim
 
 "...... Airline ......
 let g:airline_powerline_fonts = 1

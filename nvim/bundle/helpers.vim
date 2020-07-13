@@ -22,7 +22,7 @@ Plug 'alvan/vim-closetag'
 Plug 'fszymanski/deoplete-emoji'
 
 "... check syntax ...
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 
 "... highlight brackets
 Plug 'luochen1990/rainbow'

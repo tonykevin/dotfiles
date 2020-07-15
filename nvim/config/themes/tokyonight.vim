@@ -6,4 +6,4 @@ colorscheme tokyonight
 
 
 " Airline theme
-let g:airline_theme = 'atomic'
+let g:airline_theme = 'tokyonight'

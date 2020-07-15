@@ -1,6 +1,20 @@
 My dotfiles
 ===========
 
+## Kitty
+
+It is GPU based terminal emulator; highly configurable and supports ligatures, more info visit [Kitty](https://sw.kovidgoyal.net/kitty/index.html).
+
+### Settings
+
+* Font-family: __Fira Code__
+* Font-size: 16
+* theme: _tokyonight_
+
+### Themes
+
+* __tokyonight:__ colors are based on [enkia](https://github.com/enkia/tokyo-night-vscode-theme).
+
 Nvim
 ----
 

@@ -33,6 +33,18 @@ Set variables in R with [.Renviron](./Renviron), then create a link to the file.
 ```bash
 $ ln -s ~/.dotfiles/Renviron ~/.Renviron
 ```
+Pip
+---
+
+It is package manager for __python__.
+
+### Settings
+
+list format:
+
+```bash
+$ ln -s ~/.dotfiles/config/pip ~/.config/pip
+```
 
 Zsh
 ---

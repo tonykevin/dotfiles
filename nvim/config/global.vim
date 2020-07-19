@@ -17,6 +17,9 @@ set clipboard+=unnamedplus
 "Grep
 set grepprg=ag\ --nogroup\ --nocolor
 
+"Ignore
+set wildignore+=*.zip,*.rar,*.gz,*.png,*.gif,*.jpg
+
 "Tab key
 set tabstop=2
 set shiftwidth=2

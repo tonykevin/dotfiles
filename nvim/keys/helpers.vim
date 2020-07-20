@@ -13,9 +13,9 @@ nnoremap <A-l> :IndentLinesToggle<CR>
 nnoremap <A-d> :NERDTreeToggle<CR>
 
 "--- Neosnippet
-imap <M-k>     <Plug>(neosnippet_expand_or_jump)
-smap <M-k>     <Plug>(neosnippet_expand_or_jump)
-xmap <M-k>     <Plug>(neosnippet_expand_target)
+imap <M-m>     <Plug>(neosnippet_expand_or_jump)
+smap <M-m>     <Plug>(neosnippet_expand_or_jump)
+xmap <M-m>     <Plug>(neosnippet_expand_target)
 
 " SuperTab like snippets behavior.
 " Note: It must be "imap" and "smap".  It uses <Plug> mappings.

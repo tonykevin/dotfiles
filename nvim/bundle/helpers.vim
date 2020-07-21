@@ -7,7 +7,8 @@ Plug 'tpope/vim-repeat'
 
 "... handle ...
 Plug 'mileszs/ack.vim'
-Plug 'ctrlpvim/ctrlp.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
 
 

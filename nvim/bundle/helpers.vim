@@ -6,7 +6,6 @@ Plug 'tpope/vim-repeat'
 "----------Files---------
 
 "... handle ...
-Plug 'mileszs/ack.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'

@@ -4,11 +4,6 @@
 
 "... handle ...
 "
-" ag
-if executable('ag')
-  let g:ackprg = 'ag --vimgrep'
-endif
-"
 " NERDTree
 let NERDTreeQuitOnOpen = 1
 let NERDTreeIgnore = [

@@ -6,7 +6,7 @@ Settings neovim
 
 * [git](https://git-scm.com/)
 
-* [the\_silver\_searcher](https://github.com/ggreer/the_silver_searcher)
+* [ripgrep](https://github.com/BurntSushi/ripgrep)
 
 * [Python client for neovim](https://github.com/neovim/python-client)
 

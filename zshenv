@@ -20,3 +20,7 @@ export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 
 #rvm
 export PATH="$PATH:$HOME/.rvm/bin"
+
+#...... Tools ......
+export FZF_DEFAULT_COMMAND="rg --files --hidden --follow"
+export FZF_DEFAULT_OPTS='--reverse --preview "bat {}"'

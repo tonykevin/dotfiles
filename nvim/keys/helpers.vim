@@ -3,8 +3,12 @@
 " --- IndentLine
 nnoremap <A-l> :IndentLinesToggle<CR>
 
+" --- FzF
+nnoremap <silent> <leader>a :Files<CR>
+nnoremap <silent> <leader>d :GFiles<CR>
+nnoremap <silent> <leader>g :GFiles?<CR>
+
 " --- NERDTree
-"
 nnoremap <A-d> :NERDTreeToggle<CR>
 
 "--- Neosnippet

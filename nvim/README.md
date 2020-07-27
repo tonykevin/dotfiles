@@ -4,7 +4,11 @@ Settings neovim
 
 ## Requirements
 
+* [bat](https://github.com/sharkdp/bat)
+
 * [git](https://git-scm.com/)
+
+* [fzf](https://github.com/junegunn/fzf)
 
 * [ripgrep](https://github.com/BurntSushi/ripgrep)
 

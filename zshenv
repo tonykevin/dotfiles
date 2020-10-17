@@ -6,7 +6,11 @@ export LINTERS="$HOME/.dotfiles/linters"
 
 #...... Version Manager ......
 
-#nvim
+#deno
+export DENO_INSTALL="$HOME/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+
+#nvm
 export NVM_DIR="$HOME/.nvm"
 
 #pyenv

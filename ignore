@@ -1,14 +1,15 @@
 !bin
 !compiler
 !tests
-bower_components
+
+.git
 node_modules
 releases
 tmp
 vendor
 
-*.log
-
-*.png
-*.jpg
 *.gif
+*.jpg
+*.png
+
+*.log

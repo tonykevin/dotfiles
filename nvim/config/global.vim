@@ -15,7 +15,7 @@ set completeopt=menu
 set clipboard+=unnamedplus
 
 "Grep
-set grepprg=ag\ --nogroup\ --nocolor
+set grepprg=rg\ --vimgrep\ --no-heading\ --smart-case
 
 "Ignore
 set wildignore+=*.zip,*.rar,*.gz,*.png,*.gif,*.jpg

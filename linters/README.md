@@ -9,11 +9,24 @@ Linters
 ### Javascript
 
 [Eslint](http://eslint.org/)
-> ##### Plugins
->
-> * [Babel-eslint](https://github.com/babel/babel-eslint)
-> * [Eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
-> * [EsLint-plugin-React](https://github.com/yannickcr/eslint-plugin-react)
+
+Install
+
+```bash
+$ npm install eslint --save-dev
+```
+
+Configure `eslintrc.json`
+
+```bash
+$ npm init @eslint/config
+```
+
+Install optional plugins
+
+* [Babel-eslint](https://github.com/babel/babel-eslint)
+* [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
+* [EsLint-plugin-React](https://github.com/yannickcr/eslint-plugin-react)
 
 [Standard](https://standardjs.com)
 

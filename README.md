@@ -1,6 +1,8 @@
 My dotfiles
 ===========
 
+Application settings of my aventure in Linux
+
 ## Kitty
 
 It is GPU based terminal emulator; highly configurable and supports ligatures, more info visit [Kitty](https://sw.kovidgoyal.net/kitty/index.html).

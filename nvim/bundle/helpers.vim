@@ -19,7 +19,6 @@ Plug 'Shougo/neosnippet.vim'
 Plug 'tonykevin/neosnippet-snippets'
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
-Plug 'fszymanski/deoplete-emoji'
 
 "... check syntax ...
 Plug 'dense-analysis/ale'
